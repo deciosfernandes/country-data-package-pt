@@ -1,11 +1,11 @@
-# country-data-package
+# country-data-package-pt
 
 A simple npm package that exports an array of country objects with name (in Portuguese), flag emoji, ISO country code, and international dial code.
 
 ## Installation
 
 ```bash
-npm install country-data-package
+npm install country-data-package-pt
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install country-data-package
 ### CommonJS (require)
 
 ```javascript
-const countries = require('country-data-package');
+const countries = require('country-data-package-pt');
 
 console.log(countries);
 // Output: Array of country objects
@@ -27,7 +27,7 @@ console.log(portugal);
 ### ES Modules (import)
 
 ```javascript
-import countries from 'country-data-package';
+import countries from 'country-data-package-pt';
 
 console.log(countries);
 // Output: Array of country objects
@@ -42,7 +42,7 @@ console.log(usAndCanada);
 The package includes TypeScript definitions for type safety:
 
 ```typescript
-import countries, { Country } from 'country-data-package';
+import countries, { Country } from 'country-data-package-pt';
 
 const country: Country = countries[0];
 console.log(country.name);    // Type-safe access
@@ -104,7 +104,7 @@ And many more! The complete list includes all countries and territories worldwid
 ### Display country selector in a form
 
 ```javascript
-const countries = require('country-data-package');
+const countries = require('country-data-package-pt');
 
 countries.forEach(country => {
   console.log(`${country.flag} ${country.name} (${country.dialCode})`);
@@ -114,7 +114,7 @@ countries.forEach(country => {
 ### Phone number validation
 
 ```javascript
-const countries = require('country-data-package');
+const countries = require('country-data-package-pt');
 
 function getCountryByDialCode(dialCode) {
   return countries.find(c => c.dialCode === dialCode);
@@ -127,7 +127,7 @@ console.log(country.name); // "Portugal"
 ### Country code lookup
 
 ```javascript
-const countries = require('country-data-package');
+const countries = require('country-data-package-pt');
 
 function getCountryByCode(code) {
   return countries.find(c => c.code === code);
