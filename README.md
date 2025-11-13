@@ -304,4 +304,4 @@ GPL-3.0
 
 ## Repository
 
-https://github.com/deciosfernandes/country-data-package
+https://github.com/deciosfernandes/country-data-package-pt
