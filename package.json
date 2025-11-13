@@ -1,45 +1,45 @@
 {
-  "name": "country-data-package-pt",
-  "version": "1.0.0",
-  "description": "A simple npm package that exports an array of country objects with name in Portuguese, flag emoji, country code, and international dial code",
-  "main": "index.js",
-  "module": "index.esm.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "keywords": [
-    "country",
-    "countries",
-    "portuguese",
-    "português",
-    "pt",
-    "flag",
-    "emoji",
-    "country-code",
-    "dial-code",
-    "phone-code",
-    "iso",
-    "international",
-    "portugal",
-    "brazil",
-    "brasil"
-  ],
-  "author": "deciosfernandes",
-  "license": "GPL-3.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deciosfernandes/country-data-package.git"
-  },
-  "bugs": {
-    "url": "https://github.com/deciosfernandes/country-data-package/issues"
-  },
-  "homepage": "https://github.com/deciosfernandes/country-data-package#readme",
-  "files": [
-    "index.js",
-    "index.esm.js",
-    "index.d.ts",
-    "README.md",
-    "LICENSE"
-  ]
+    "name": "country-data-package-pt",
+    "version": "1.0.1",
+    "description": "A simple npm package that exports an array of country objects with name in Portuguese, flag emoji, country code, and international dial code",
+    "main": "index.js",
+    "module": "index.esm.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "keywords": [
+        "country",
+        "countries",
+        "portuguese",
+        "português",
+        "pt",
+        "flag",
+        "emoji",
+        "country-code",
+        "dial-code",
+        "phone-code",
+        "iso",
+        "international",
+        "portugal",
+        "brazil",
+        "brasil"
+    ],
+    "author": "deciosfernandes",
+    "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/deciosfernandes/country-data-package-pt.git"
+    },
+    "bugs": {
+        "url": "https://github.com/deciosfernandes/country-data-package-pt/issues"
+    },
+    "homepage": "https://github.com/deciosfernandes/country-data-package-pt#readme",
+    "files": [
+        "index.js",
+        "index.esm.js",
+        "index.d.ts",
+        "README.md",
+        "LICENSE"
+    ]
 }
