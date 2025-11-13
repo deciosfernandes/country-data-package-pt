@@ -1,6 +1,6 @@
 # country-data-package
 
-A simple npm package that exports an array of country objects with name, flag emoji, ISO country code, and international dial code.
+A simple npm package that exports an array of country objects with name (in Portuguese), flag emoji, ISO country code, and international dial code.
 
 ## Installation
 
@@ -57,7 +57,7 @@ Each country object has the following structure:
 
 ```typescript
 interface Country {
-  name: string;      // Full country name
+  name: string;      // Full country name in Portuguese
   flag: string;      // Flag emoji
   code: string;      // ISO 3166-1 alpha-2 country code
   dialCode: string;  // International dialing code
@@ -66,33 +66,38 @@ interface Country {
 
 ## Available Countries
 
-The package includes 25 countries:
+The package includes **246 countries** from around the world with names in Portuguese.
 
-- United States 🇺🇸 (US, +1)
-- United Kingdom 🇬🇧 (GB, +44)
-- Canada 🇨🇦 (CA, +1)
-- Australia 🇦🇺 (AU, +61)
-- Germany 🇩🇪 (DE, +49)
-- France 🇫🇷 (FR, +33)
-- Italy 🇮🇹 (IT, +39)
-- Spain 🇪🇸 (ES, +34)
+### Sample Countries
+
+Here are some examples from the complete list:
+
 - Portugal 🇵🇹 (PT, +351)
-- Netherlands 🇳🇱 (NL, +31)
-- Belgium 🇧🇪 (BE, +32)
-- Switzerland 🇨🇭 (CH, +41)
-- Sweden 🇸🇪 (SE, +46)
-- Norway 🇳🇴 (NO, +47)
-- Denmark 🇩🇰 (DK, +45)
-- Finland 🇫🇮 (FI, +358)
-- Poland 🇵🇱 (PL, +48)
-- Japan 🇯🇵 (JP, +81)
-- South Korea 🇰🇷 (KR, +82)
+- Brasil 🇧🇷 (BR, +55)
+- Estados Unidos 🇺🇸 (US, +1)
+- Reino Unido 🇬🇧 (GB, +44)
+- Canadá 🇨🇦 (CA, +1)
+- Austrália 🇦🇺 (AU, +61)
+- Alemanha 🇩🇪 (DE, +49)
+- França 🇫🇷 (FR, +33)
+- Itália 🇮🇹 (IT, +39)
+- Espanha 🇪🇸 (ES, +34)
+- Países Baixos 🇳🇱 (NL, +31)
+- Bélgica 🇧🇪 (BE, +32)
+- Suíça 🇨🇭 (CH, +41)
+- Suécia 🇸🇪 (SE, +46)
+- Noruega 🇳🇴 (NO, +47)
+- Dinamarca 🇩🇰 (DK, +45)
+- Finlândia 🇫🇮 (FI, +358)
+- Polónia 🇵🇱 (PL, +48)
+- Japão 🇯🇵 (JP, +81)
 - China 🇨🇳 (CN, +86)
-- India 🇮🇳 (IN, +91)
-- Brazil 🇧🇷 (BR, +55)
-- Mexico 🇲🇽 (MX, +52)
+- Índia 🇮🇳 (IN, +91)
+- México 🇲🇽 (MX, +52)
 - Argentina 🇦🇷 (AR, +54)
-- South Africa 🇿🇦 (ZA, +27)
+- África do Sul 🇿🇦 (ZA, +27)
+
+And many more! The complete list includes all countries and territories worldwide.
 
 ## Example Use Cases
 
