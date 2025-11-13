@@ -1,0 +1,39 @@
+{
+  "name": "country-data-package",
+  "version": "1.0.0",
+  "description": "A simple npm package that exports an array of country objects with name, flag emoji, country code, and international dial code",
+  "main": "index.js",
+  "module": "index.esm.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "country",
+    "countries",
+    "flag",
+    "emoji",
+    "country-code",
+    "dial-code",
+    "phone-code",
+    "iso",
+    "international"
+  ],
+  "author": "deciosfernandes",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deciosfernandes/country-data-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deciosfernandes/country-data-package/issues"
+  },
+  "homepage": "https://github.com/deciosfernandes/country-data-package#readme",
+  "files": [
+    "index.js",
+    "index.esm.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ]
+}
