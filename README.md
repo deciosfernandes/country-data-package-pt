@@ -2,6 +2,11 @@
 
 A simple npm package that exports an array of country objects with name (in Portuguese), flag emoji, ISO country code, and international dial code.
 
+[![Bundle Size](https://img.shields.io/bundlephobia/min/country-data-package-pt)](https://bundlephobia.com/package/country-data-package-pt)
+[![npm version](https://img.shields.io/npm/v/country-data-package-pt)](https://www.npmjs.com/package/country-data-package-pt)
+[![TypeScript](https://img.shields.io/npm/types/country-data-package-pt)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/npm/l/country-data-package-pt)](https://github.com/deciosfernandes/style-switcher/blob/master/LICENSE)
+
 ## Installation
 
 ```bash
